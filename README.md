@@ -1,4 +1,4 @@
-# Docker Container Backup and Purge
+# Docker Container Backup and Purge (Store and Recover from s3)
 
 #Warning, I have not tested this yet. Please test it in a none production environment before fully deploying.
 
