@@ -75,6 +75,17 @@ Replace `/path/to/backup_and_purge.sh` with the actual path to the `backup_and_p
 chmod +x backup_and_purge.sh
 ```
 
+## The Database Table Schema is located in the backups.sql file
+```SQL
+CREATE TABLE backups (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    container_id VARCHAR(64) NOT NULL,
+    container_name VARCHAR(255) NOT NULL,
+    image VARCHAR(255) NOT NULL,
+    volume_name VARCHAR(255) NOT NULL,
+    s3_path VARCHAR(255) NOT NULL
+);
+```
 
 ## License
 
