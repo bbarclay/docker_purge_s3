@@ -1,5 +1,7 @@
 # Docker Container Backup and Purge
 
+#Warning, I have not tested this yet. Please test it in a none production environment before fully deploying.
+
 This repository contains two bash scripts to backup and purge Docker containers and their associated volumes. The scripts also have the option to remove the Docker images.
 
 The scripts use the Docker, AWS CLI, and MySQL CLI commands to perform their tasks. They interact with Amazon S3 for storing backups and MySQL for storing backup metadata.
